@@ -35,13 +35,13 @@ void arteASCII() {
 }
 
 void mostrarSobre(){
-    digitar("\n====================Sobre Mim====================");
+    digitar("\n==================== Sobre Mim ====================");
     digitar("Sou Ernicio Chilundo, Programador autodidata de Moçambique.");
     digitar("Foco JavaScript, Python, C++ e soluções criativas com IA\n");
 }
 
 void mostrarProjetos(const vector<Projeto>&  projetos){
-    digitar("\n====================Projetos======================");
+    digitar("\n==================== Projetos ======================");
     for (const auto& projeto : projetos)
     {
         digitar("• " + projeto.titulo);
@@ -50,3 +50,13 @@ void mostrarProjetos(const vector<Projeto>&  projetos){
     }
     
 }
+
+void mostrarContato() {
+    digitar("\n==================== Contato ====================");
+    digitar("🌟 Ernicio Jermias Chilundo");
+    digitar("🔗 GitHub: https://github.com/Ernicio-Chilundo-Dev");
+    digitar("💼 LinkedIn: https://www.linkedin.com/in/ernicio-jermias-chilundo");
+    digitar("📧 Email: ernicio.j.chilundo@email.com");
+    digitar("📞 WhatsApp: +258 870568953\n");
+}
+
