@@ -39,3 +39,14 @@ void mostrarSobre(){
     digitar("Sou Ernicio Chilundo, Programador autodidata de Moçambique.");
     digitar("Foco JavaScript, Python, C++ e soluções criativas com IA\n");
 }
+
+void mostrarProjetos(const vector<Projeto>&  projetos){
+    digitar("\n====================Projetos======================");
+    for (const auto& projeto : projetos)
+    {
+        digitar("• " + projeto.titulo);
+        digitar(" " + projeto.descricacao);
+        digitar(" Link: "+ projeto.link + "\n");
+    }
+    
+}
