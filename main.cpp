@@ -34,4 +34,8 @@ void arteASCII() {
     )" << endl;
 }
 
-
+void mostrarSobre(){
+    digitar("\n====================Sobre Mim====================");
+    digitar("Sou Ernicio Chilundo, Programador autodidata de Moçambique.");
+    digitar("Foco JavaScript, Python, C++ e soluções criativas com IA\n");
+}
